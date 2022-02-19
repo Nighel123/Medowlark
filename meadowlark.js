@@ -1,5 +1,5 @@
-const express = require('express').engine
-const expressHandlebars = require('express-handlebars')
+const express = require('express')
+const expressHandlebars = require('express-handlebars').engine
 
 const handlers = require('./lib/handlers')
 
